@@ -1,0 +1,41 @@
+{
+  "cluster": [
+    "manage_index_templates",
+    "monitor",
+    "manage_ilm"
+  ],
+  "indices": [
+    {
+      "names": [
+        "logs-generic-default",
+        "logstash-*",
+        "ecs-logstash-*",
+		"syslog-*",
+		"auth-*",
+		"ssh-*",
+		"kernel-*",
+		"daemon-*",
+		"auditd-*",
+		"local-*"
+      ],
+      "privileges": [
+        "write",
+        "create",
+        "create_index",
+        "manage",
+        "manage_ilm",
+		"auto_configure"
+      ]
+    },
+    {
+      "names": [
+        "logstash",
+        "ecs-logstash"
+      ],
+      "privileges": [
+        "write",
+        "manage"
+      ]
+    }
+  ]
+}
