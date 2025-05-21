@@ -107,17 +107,6 @@ To observe logs in Kibana, use the following index patterns:
 
 ## 🔒 Credentials (.env)
 
-```env
-ELASTIC_PASSWORD='elastic1111'
-LOGSTASH_INTERNAL_PASSWORD='logstash1111'
-KIBANA_SYSTEM_PASSWORD='kibana1111'
-METRICBEAT_INTERNAL_PASSWORD='metricbeat1111'
-FILEBEAT_INTERNAL_PASSWORD='filebeat1111'
-HEARTBEAT_INTERNAL_PASSWORD='heartbeat1111'
-MONITORING_INTERNAL_PASSWORD='monitoring1111'
-BEATS_SYSTEM_PASSWORD='beats1111'
-```
-
 Refer to `.env` for all stack user credentials.
 
 ---
